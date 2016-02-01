@@ -4,8 +4,9 @@ Hipchat notification plugin for Flexget
 Example:
 ```yaml
       hipchat:
-        auth_token: <AUTH_TOKEN>
-        room_key: <ROOM_KEY>
+        auth:
+          auth_token: <AUTH_TOKEN>
+          room_key: <ROOM_KEY>
         [color: green|yellow|red|grey|purple (default: green)]
         [notify: true|false (default: false)]
         [title: <TITLE> (default: "New download started:")]
